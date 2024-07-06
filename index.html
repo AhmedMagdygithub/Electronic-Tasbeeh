@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaScript Test</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="master.css" />
+    <script defer src="main.js"></script>
+    <style>
+      /* اضافة للتعديل */
+      .result {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset class="field">
+      <legend class="legend">Calculate Your Age</legend>
+      <div class="container">
+        <input
+          required
+          class="user"
+          id="inp"
+          name="inp"
+          type="number"
+          placeholder="Enter Your Age"
+        />
+        <div>
+          <button name="inp" class="button" id="calculateBtn">Calculate</button>
+        </div>
+      </div>
+      <!-- تعديل هنا لإضافة عنصر div لعرض النتيجة -->
+      <div class="result" id="result"></div>
+    </fieldset>
+
+    
+    <footer>
+        &copy; Created By `Ahmed Magdy`
+    </footer>
+  </body>
+</html>
